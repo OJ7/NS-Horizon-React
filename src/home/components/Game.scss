@@ -1,0 +1,36 @@
+.Game {
+  margin-right: 1.16%;
+  width: 20%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+
+  flex: 0 0 auto;
+
+  .Game-title {
+    color: #58BAF8;
+    white-space: nowrap;
+  }
+
+  .Game-logo {
+    position: relative;
+    // border: 5px solid #F5F4FA;  /* light */
+
+    /* dark */
+    border: 1px solid #414141;
+    background-color: #323232;
+
+    .Logo {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  .Game-logo:after {
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+  }
+}

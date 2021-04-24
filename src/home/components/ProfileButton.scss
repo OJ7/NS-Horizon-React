@@ -1,0 +1,17 @@
+.Profile-button {
+  margin-right: 1.5%;
+  width: 4.9%;
+
+  .Button-container {
+    width: 100%;
+    background-color: #505050;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+  .Button-container:after {
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+  }
+}
