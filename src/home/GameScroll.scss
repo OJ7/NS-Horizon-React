@@ -1,0 +1,18 @@
+.Game-scroll {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+
+  .Scroll-box {
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+  }
+
+  .Pre-game-scroll {
+    min-width: 8.3%;
+  }
+}

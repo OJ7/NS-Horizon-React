@@ -1,0 +1,20 @@
+.Footer {
+  border-top: 1px solid #E1E1E1;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: #F2F2F2;
+
+  .Controller-container {
+    margin-left: 1%;
+  }
+
+  .Actions-container {
+    margin-right: 1%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}

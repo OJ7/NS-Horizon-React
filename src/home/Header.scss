@@ -1,0 +1,23 @@
+.Header {
+  margin-left: 3%;
+  margin-right: 3%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  .Profile-buttons {
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+
+  .System-status {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    color: #FFFFFF;
+    white-space: nowrap;
+  }
+}
