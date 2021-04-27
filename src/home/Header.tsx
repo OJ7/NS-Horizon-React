@@ -1,25 +1,61 @@
 import React from 'react';
 import { MdWifi } from 'react-icons/md';
 import { IoBatteryFullSharp } from 'react-icons/io5';
-import ProfileButton from './components/ProfileButton';
+import ProfileButtonItem from './components/ProfileButtonItem';
 import './Header.scss';
 import { useDate } from '../utils/useDate';
 
-function Header() {
-  return (
-    <div className="Header">
-      <div className="Profile-buttons">
-        <ProfileButton />
-        <ProfileButton />
-      </div>
+export type Profile = { name: string, imgUrl: string }
+type MyProps = {};
+type MyState = { profiles: Profile[], time: string, wifiConnected: boolean, batteryPercent: number };
+class Header extends React.Component<MyProps, MyState> {
+  constructor(props: MyProps) {
+    super(props);
+    this.state = {
+      profiles: [
+        { name: 'OJ', imgUrl: 'https://avatars.githubusercontent.com/u/5333243?v=4' },
+        { name: 'React', imgUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2560px-React-icon.svg.png' },
+      ],
+      time: '',
+      wifiConnected: true,
+      batteryPercent: 99,
+    };
 
-      <div className="System-status">
-        <p className="Status-icon">{useDate().time}</p>
-        <p className="Status-icon icon"><MdWifi /></p>
-        <p className="Status-icon icon">99% <IoBatteryFullSharp /></p>
+  }
+
+  updateTime() {
+    this.setState({
+      time: new Date().toLocaleTimeString('en', { hour: 'numeric', hour12: true, minute: 'numeric' }),
+    })
+  }
+
+  componentDidMount() {
+    this.updateTime();
+  }
+
+  componentDidUpdate() {
+    setTimeout(() => { this.updateTime(); }, 20 * 1000);
+  }
+
+  render() {
+    return (
+      <div className="Header">
+        <div className="Profile-buttons">
+          {this.state.profiles.map(profile =>
+            <ProfileButtonItem profile={profile} />
+          )}
+        </div>
+
+        <div className="System-status">
+          {/* hooks not compatible with components, using a temporary state-based solution for now */}
+           {/* <p className="Status-icon">{useDate().time}</p> */}
+          <p className="Status-icon">{this.state.time}</p>
+          {this.state.wifiConnected && <p className="Status-icon icon"><MdWifi /></p>}
+          <p className="Status-icon icon">{this.state.batteryPercent} % <IoBatteryFullSharp /></p>
+        </div>
       </div>
-    </div>
-  );
+    );
+  }
 }
 
 export default Header;
