@@ -12,10 +12,15 @@
     color: #58BAF8;
     white-space: nowrap;
     text-align: center;
+
+    &.hovering {
+      visibility: hidden;
+    }
   }
 
   .Game-logo {
     position: relative;
+    margin-bottom: 1rem;
     // border: 5px solid #F5F4FA;  /* light */
 
     /* dark */
@@ -33,5 +38,10 @@
     content: "";
     display: block;
     padding-bottom: 100%;
+  }
+
+  .Game-logo:hover {
+    outline: 3px solid #1B98D3;
+    outline-offset: 3px;
   }
 }
