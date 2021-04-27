@@ -1,6 +1,9 @@
 import React from 'react';
+import { MdWifi } from 'react-icons/md';
+import { IoBatteryFullSharp } from 'react-icons/io5';
 import ProfileButton from './components/ProfileButton';
 import './Header.scss';
+import { useDate } from '../utils/useDate';
 
 function Header() {
   return (
@@ -11,9 +14,9 @@ function Header() {
       </div>
 
       <div className="System-status">
-        <p>19:05</p>
-        <p>Wi-Fi</p>
-        <p>99%</p>
+        <p className="Status-icon">{useDate().time}</p>
+        <p className="Status-icon icon"><MdWifi /></p>
+        <p className="Status-icon icon">99% <IoBatteryFullSharp /></p>
       </div>
     </div>
   );

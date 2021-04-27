@@ -32,6 +32,15 @@
       justify-content: flex-end;
       color: #FFFFFF;
       white-space: nowrap;
+
+      .Status-icon {
+        margin-left: 0.5rem;
+      }
+
+      svg {
+        height: 1.2em;
+        width: 1.2em;
+      }
     }
   }
 
