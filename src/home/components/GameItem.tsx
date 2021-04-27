@@ -21,7 +21,7 @@ class GameItem extends React.Component<MyProps, MyState> {
   render() {
     return (
       <div className="GameItem">
-        <p className={"Game-title" + (this.state.isHovering ? '' : ' hovering')}>{this.props.game.title}</p>
+        <p className={"Game-title" + (this.state.isHovering ? '' : ' hidden')}>{this.props.game.title}</p>
         <div className="Game-logo"
           onMouseEnter={() => this.setHoverState(true)}
           onMouseLeave={() => this.setHoverState(false)}>
