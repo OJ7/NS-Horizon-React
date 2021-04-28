@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/ns-horizon-react/static/css/main.871f2b36.chunk.css",
+    "main.js": "/ns-horizon-react/static/js/main.d3a5f89d.chunk.js",
+    "main.js.map": "/ns-horizon-react/static/js/main.d3a5f89d.chunk.js.map",
+    "runtime-main.js": "/ns-horizon-react/static/js/runtime-main.93de3d01.js",
+    "runtime-main.js.map": "/ns-horizon-react/static/js/runtime-main.93de3d01.js.map",
+    "static/js/2.9d050184.chunk.js": "/ns-horizon-react/static/js/2.9d050184.chunk.js",
+    "static/js/2.9d050184.chunk.js.map": "/ns-horizon-react/static/js/2.9d050184.chunk.js.map",
+    "static/js/3.1f8a9e9b.chunk.js": "/ns-horizon-react/static/js/3.1f8a9e9b.chunk.js",
+    "static/js/3.1f8a9e9b.chunk.js.map": "/ns-horizon-react/static/js/3.1f8a9e9b.chunk.js.map",
+    "index.html": "/ns-horizon-react/index.html",
+    "static/css/main.871f2b36.chunk.css.map": "/ns-horizon-react/static/css/main.871f2b36.chunk.css.map",
+    "static/js/2.9d050184.chunk.js.LICENSE.txt": "/ns-horizon-react/static/js/2.9d050184.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.93de3d01.js",
+    "static/js/2.9d050184.chunk.js",
+    "static/css/main.871f2b36.chunk.css",
+    "static/js/main.d3a5f89d.chunk.js"
+  ]
+}
