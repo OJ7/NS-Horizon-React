@@ -3,7 +3,7 @@ import { MdWifi } from 'react-icons/md';
 import { IoBatteryFullSharp } from 'react-icons/io5';
 import ProfileButtonItem from './components/ProfileButtonItem';
 import './Header.scss';
-import { useDate } from '../utils/useDate';
+// import { useDate } from '../utils/useDate';
 
 export type Profile = { name: string, imgUrl: string }
 type MyProps = {};
