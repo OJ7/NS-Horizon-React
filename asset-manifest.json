@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/NS-Horizon-React/static/css/main.871f2b36.chunk.css",
+    "main.css": "/NS-Horizon-React/static/css/main.9259a438.chunk.css",
     "main.js": "/NS-Horizon-React/static/js/main.72301169.chunk.js",
     "main.js.map": "/NS-Horizon-React/static/js/main.72301169.chunk.js.map",
     "runtime-main.js": "/NS-Horizon-React/static/js/runtime-main.2845bef2.js",
@@ -10,13 +10,13 @@
     "static/js/3.1f8a9e9b.chunk.js": "/NS-Horizon-React/static/js/3.1f8a9e9b.chunk.js",
     "static/js/3.1f8a9e9b.chunk.js.map": "/NS-Horizon-React/static/js/3.1f8a9e9b.chunk.js.map",
     "index.html": "/NS-Horizon-React/index.html",
-    "static/css/main.871f2b36.chunk.css.map": "/NS-Horizon-React/static/css/main.871f2b36.chunk.css.map",
+    "static/css/main.9259a438.chunk.css.map": "/NS-Horizon-React/static/css/main.9259a438.chunk.css.map",
     "static/js/2.9d050184.chunk.js.LICENSE.txt": "/NS-Horizon-React/static/js/2.9d050184.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.2845bef2.js",
     "static/js/2.9d050184.chunk.js",
-    "static/css/main.871f2b36.chunk.css",
+    "static/css/main.9259a438.chunk.css",
     "static/js/main.72301169.chunk.js"
   ]
 }
