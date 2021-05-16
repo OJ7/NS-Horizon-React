@@ -1,13 +1,13 @@
 import React from 'react';
-import './Home.scss';
+import './HomePage.scss';
 import Header from './Header';
 import GameScroll from './GameScroll';
 import Footer from './Footer';
 import ButtonsToolbar from './ButtonsToolbar';
 
-function Home() {
+function HomePage() {
   return (
-    <div className="Home">
+    <div className="HomePage">
       <Header />
 
       <GameScroll />
@@ -19,4 +19,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default HomePage;
