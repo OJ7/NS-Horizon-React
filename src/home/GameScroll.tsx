@@ -20,9 +20,14 @@ class GameScroll extends React.Component<MyProps, MyState> {
         <div className="Scroll-box">
           <div className="Pre-game-scroll"></div>
 
-          {this.state.games.map(game =>
+          {this.state.games.slice(0, 12).map(game =>
             <GameItem game={game} />
           )}
+
+          {/* All Softare Button */}
+          {this.state.games.length > 12 &&
+            <GameItem game={{ title: 'All Software' } as Game} />
+          }
 
           <div className="Post-game-scroll"></div>
         </div>
