@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "/NS-Horizon-React/static/css/main.9259a438.chunk.css",
-    "main.js": "/NS-Horizon-React/static/js/main.d3a5f89d.chunk.js",
-    "main.js.map": "/NS-Horizon-React/static/js/main.d3a5f89d.chunk.js.map",
-    "runtime-main.js": "/NS-Horizon-React/static/js/runtime-main.2845bef2.js",
-    "runtime-main.js.map": "/NS-Horizon-React/static/js/runtime-main.2845bef2.js.map",
-    "static/js/2.9d050184.chunk.js": "/NS-Horizon-React/static/js/2.9d050184.chunk.js",
-    "static/js/2.9d050184.chunk.js.map": "/NS-Horizon-React/static/js/2.9d050184.chunk.js.map",
-    "static/js/3.1f8a9e9b.chunk.js": "/NS-Horizon-React/static/js/3.1f8a9e9b.chunk.js",
-    "static/js/3.1f8a9e9b.chunk.js.map": "/NS-Horizon-React/static/js/3.1f8a9e9b.chunk.js.map",
+    "main.css": "/NS-Horizon-React/static/css/main.629cfee8.chunk.css",
+    "main.js": "/NS-Horizon-React/static/js/main.3619d619.chunk.js",
+    "main.js.map": "/NS-Horizon-React/static/js/main.3619d619.chunk.js.map",
+    "runtime-main.js": "/NS-Horizon-React/static/js/runtime-main.b5170ad6.js",
+    "runtime-main.js.map": "/NS-Horizon-React/static/js/runtime-main.b5170ad6.js.map",
+    "static/js/2.71805b81.chunk.js": "/NS-Horizon-React/static/js/2.71805b81.chunk.js",
+    "static/js/2.71805b81.chunk.js.map": "/NS-Horizon-React/static/js/2.71805b81.chunk.js.map",
+    "static/js/3.46ae0cd2.chunk.js": "/NS-Horizon-React/static/js/3.46ae0cd2.chunk.js",
+    "static/js/3.46ae0cd2.chunk.js.map": "/NS-Horizon-React/static/js/3.46ae0cd2.chunk.js.map",
     "index.html": "/NS-Horizon-React/index.html",
-    "static/css/main.9259a438.chunk.css.map": "/NS-Horizon-React/static/css/main.9259a438.chunk.css.map",
-    "static/js/2.9d050184.chunk.js.LICENSE.txt": "/NS-Horizon-React/static/js/2.9d050184.chunk.js.LICENSE.txt"
+    "static/css/main.629cfee8.chunk.css.map": "/NS-Horizon-React/static/css/main.629cfee8.chunk.css.map",
+    "static/js/2.71805b81.chunk.js.LICENSE.txt": "/NS-Horizon-React/static/js/2.71805b81.chunk.js.LICENSE.txt",
+    "static/media/all-software-button.479d8df0.png": "/NS-Horizon-React/static/media/all-software-button.479d8df0.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.2845bef2.js",
-    "static/js/2.9d050184.chunk.js",
-    "static/css/main.9259a438.chunk.css",
-    "static/js/main.d3a5f89d.chunk.js"
+    "static/js/runtime-main.b5170ad6.js",
+    "static/js/2.71805b81.chunk.js",
+    "static/css/main.629cfee8.chunk.css",
+    "static/js/main.3619d619.chunk.js"
   ]
 }
