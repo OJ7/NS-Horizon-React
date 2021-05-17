@@ -1,7 +1,11 @@
-import React from 'react';
-import GameItem from './components/GameItem';
 import './GameScroll.scss';
-import games from '../data/games.json'
+
+import React from 'react';
+import { Link } from 'react-router-dom';
+
+import games from '../data/games.json';
+import AllSoftwareButton from './components/AllSoftwareButton';
+import GameItem from './components/GameItem';
 
 export type Game = { title: string, coverImgUrl: string }
 type MyProps = {};
@@ -26,7 +30,9 @@ class GameScroll extends React.Component<MyProps, MyState> {
 
           {/* All Softare Button */}
           {this.state.games.length > 12 &&
-            <GameItem game={{ title: 'All Software' } as Game} />
+            <Link to="/all-software" className="Use-Contents">
+              <AllSoftwareButton />
+            </Link>
           }
 
           <div className="Post-game-scroll"></div>
