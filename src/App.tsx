@@ -1,7 +1,7 @@
 import './App.scss';
 
 import React from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { HashRouter, Route, Switch } from 'react-router-dom';
 
 import AllSoftwarePage from './all-software/AllSoftwarePage';
 import HomePage from './home/HomePage';
@@ -10,8 +10,11 @@ function App() {
   return (
     <div>
       <div className="Ns-container dark">
-        <Router>
+        <HashRouter>
           <Switch>
+            <Route exact path="/">
+              <HomePage />
+            </Route>
             <Route path="/home">
               <HomePage />
             </Route>
@@ -19,8 +22,7 @@ function App() {
               <AllSoftwarePage />
             </Route>
           </Switch>
-
-        </Router>,
+        </HashRouter>
       </div>
     </div>
   );
