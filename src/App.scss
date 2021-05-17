@@ -16,4 +16,15 @@
     background-color: #2D2D2D;
   }
 
+  @media screen and (min-width: 177.78vh) {
+    .responsive-text {
+      font-size: 3vh;
+    }
+  }
+
+  @media screen and (min-height: 56.25vw) {
+    .responsive-text {
+      font-size: 2vw;
+    }
+  }
 }

@@ -25,7 +25,7 @@ class MenuButtonItem extends React.Component<MyProps, MyState> {
           onMouseEnter={() => this.setHoverState(true)}
           onMouseLeave={() => this.setHoverState(false)}>
         </span>
-        <p className={"Button-title" + (this.state.isHovering ? '' : ' hidden')}>{this.props.button.title}</p>
+        <p className={"Button-title" + (this.state.isHovering ? '' : ' hidden') + " responsive-text"}>{this.props.button.title}</p>
       </div>
     );
   }

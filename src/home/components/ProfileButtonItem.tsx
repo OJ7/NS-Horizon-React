@@ -26,7 +26,7 @@ class ProfileButtonItem extends React.Component<MyProps, MyState> {
           onMouseLeave={() => this.setHoverState(false)}>
             <img src={this.props.profile.imgUrl} className="Profile-img" alt="profile" />
         </span>
-        <p className={"Button-title" + (this.state.isHovering ? '' : ' hidden')}>{this.props.profile.name}'s Page</p>
+        <p className={"Button-title" + (this.state.isHovering ? '' : ' hidden') + " responsive-text"}>{this.props.profile.name}'s Page</p>
       </div>
     );
   }

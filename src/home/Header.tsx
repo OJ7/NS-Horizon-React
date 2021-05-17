@@ -46,7 +46,7 @@ class Header extends React.Component<MyProps, MyState> {
           )}
         </div>
 
-        <div className="System-status">
+        <div className="System-status responsive-text">
           {/* hooks not compatible with components, using a temporary state-based solution for now */}
            {/* <p className="Status-icon">{useDate().time}</p> */}
           <p className="Status-icon">{this.state.time}</p>
