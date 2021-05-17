@@ -1,9 +1,11 @@
 .Footer {
+  position: absolute;
+  bottom: 0;
+  left: 2.5%;
+  right: 2.5%;
   height: 5.4vw;
   max-height: 9.6vh;
   border-top: 1px solid #E1E1E1;
-  margin-left: 2.5%;
-  margin-right: 2.5%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
