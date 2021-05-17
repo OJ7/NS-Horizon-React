@@ -20,7 +20,7 @@ class AllSoftwareButton extends React.Component<{}, MyState> {
   render() {
     return (
       <div className="AllSoftwareButton">
-        <p className={"Game-title" + (this.state.isHovering ? '' : ' hidden')}>All Software</p>
+        <p className={"Game-title" + (this.state.isHovering ? '' : ' hidden') + " responsive-text"}>All Software</p>
         <div className="Game-logo"
           onMouseEnter={() => this.setHoverState(true)}
           onMouseLeave={() => this.setHoverState(false)}>

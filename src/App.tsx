@@ -8,7 +8,7 @@ import HomePage from './home/HomePage';
 
 function App() {
   return (
-    <div>
+    <div className="App">
       <div className="Ns-container dark">
         <HashRouter>
           <Switch>
