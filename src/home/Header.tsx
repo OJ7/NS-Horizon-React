@@ -41,8 +41,8 @@ class Header extends React.Component<MyProps, MyState> {
     return (
       <div className="Header">
         <div className="Profile-buttons">
-          {this.state.profiles.map(profile =>
-            <ProfileButtonItem profile={profile} />
+          {this.state.profiles.map((profile, index) =>
+            <ProfileButtonItem profile={profile} key={index}/>
           )}
         </div>
 

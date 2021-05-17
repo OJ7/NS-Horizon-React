@@ -20,8 +20,8 @@ class GameScroll extends React.Component<MyProps, MyState> {
         <div className="Scroll-box">
           <div className="Pre-game-scroll"></div>
 
-          {this.state.games.slice(0, 12).map(game =>
-            <GameItem game={game} />
+          {this.state.games.slice(0, 12).map((game, index) =>
+            <GameItem game={game} key={index} />
           )}
 
           {/* All Softare Button */}

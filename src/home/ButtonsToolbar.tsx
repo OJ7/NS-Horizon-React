@@ -24,8 +24,8 @@ class ButtonsToolbar extends React.Component<MyProps, MyState> {
   render() {
     return (
       <div className="Buttons-toolbar">
-        {this.state.buttons.map(button =>
-          <MenuButtonItem button={button} />
+        {this.state.buttons.map((button, index) =>
+          <MenuButtonItem button={button} key={index} />
         )}
       </div>
     );
