@@ -9,10 +9,17 @@
     flex-wrap: nowrap;
     overflow: auto;
     -webkit-overflow-scrolling: touch;
-    -ms-overflow-style: -ms-autohiding-scrollbar;
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
   }
 
-  .Pre-game-scroll, .Post-game-scroll {
+  /* Hide scrollbar for Chrome, Safari and Opera */
+  .Scroll-box::-webkit-scrollbar {
+    display: none;
+  }
+
+  .Pre-game-scroll,
+  .Post-game-scroll {
     min-width: 8.3%;
   }
 
